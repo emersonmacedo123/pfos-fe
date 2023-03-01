@@ -1,11 +1,35 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import space_background from "./assets/images/background_space_medium.jpg";
+import Container from './components/Container';
+import Logo from './components/Logo';
+
 
 function App() {
+
+  const myStyle={
+    backgroundImage: `url(${space_background})`,
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    width: '100vw',
+    height:'100vh',
+    backgroundClip: 'fixed'
+    // position: 'fixed',
+    // fontSize:'50px',
+    
+
+}
+
   return (
-    <div className="App">
+    <div className="App" style={myStyle}>
+      <Logo />
+      <Container />
+      
+      {/* <img src={primates_logo_nobg} className="App-logo" alt="logo" />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,7 +41,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+        
+      </header> */}
+    
     </div>
   );
 }
