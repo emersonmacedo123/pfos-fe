@@ -2,7 +2,7 @@
 import './App.css';
 import space_background from "./assets/images/background_space_medium.jpg";
 import Container from './components/Container';
-import Logo from './components/Logo';
+import Logo from './components/Logo'; 
 
 
 function App() {
