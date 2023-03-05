@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Loren_big_text = () => {
+const LorenBigText = () => {
 
   const myStyle={
     fontSize: 'large',
@@ -18,4 +18,4 @@ const Loren_big_text = () => {
   )
 }
 
-export default Loren_big_text
+export default LorenBigText

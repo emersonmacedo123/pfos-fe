@@ -9,8 +9,22 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.App {
+    background-image: url('./assets/images/background_space_medium.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .Loren {
     text-align: justify;
     margin: 20px;
     font-size: small;
+    color: rgb(219, 205, 205);
 }
+
+
+/* .social-icon {
+    margin-right: 10px;
+} */
