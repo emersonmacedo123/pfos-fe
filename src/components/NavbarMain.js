@@ -15,7 +15,7 @@ const NavbarMain = () => {
     <>
       <Navbar bg="black" variant="dark" sticky="top">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               src={primates_logo_nobg}
               width="30"
@@ -24,7 +24,7 @@ const NavbarMain = () => {
               alt="Primates Logo"
             /></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">
+            <Nav.Link>
             <Link
                 activeClass="active"
                 to="Home"
