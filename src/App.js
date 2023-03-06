@@ -4,6 +4,7 @@ import LogoRotating from './components/Logo';
 import NavbarMain from './components/NavbarMain';
 import LorenBigText from './components/LorenBigText';
 import Section1 from './components/Section1';
+import HomeMain from './components/HomeMain';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <NavbarMain />
       <LogoRotating />
+      <HomeMain />
       <LorenBigText />
       <LorenBigText />
       <LorenBigText />

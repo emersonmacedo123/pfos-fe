@@ -9,6 +9,18 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
 .App {
     background-image: url('./assets/images/background_space_medium.jpg');
     background-repeat: no-repeat;

@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import primates_logo_nobg from "../assets/images/primates_logo_nobg.png";
 import { FaFacebook, FaInstagram, FaYoutube, FaAsterisk, FaSpotify } from 'react-icons/fa';
 // import Linktree from '../assets/icons/linktree.svg';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll"; //animateScroll as scroll
 
 
 const NavbarMain = () => {
@@ -24,21 +24,83 @@ const NavbarMain = () => {
               alt="Primates Logo"
             /></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#story">Story</Nav.Link>
-            <Nav.Link href="#members">Members</Nav.Link>
-            <Nav.Link href="#social-media">Social Media</Nav.Link>
-            {/* <Nav.Link href="#list-of-concerts">Concerts</Nav.Link> */}
-            <Nav.Link><Link
-              activeClass="active"
-              to="section1"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Section 1
-            </Link></Nav.Link>
+            <Nav.Link href="#home">
+            <Link
+                activeClass="active"
+                to="Home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Home
+              </Link>
+            </Nav.Link>
+            
+            
+            <Nav.Link href="#History">
+            <Link
+                activeClass="active"
+                to="History"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                History
+              </Link>
+            </Nav.Link>
+            
+            
+            <Nav.Link href="#members">
+            <Link
+                activeClass="active"
+                to="Members"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Members
+              </Link>
+            </Nav.Link>
+            
+            
+            <Nav.Link href="#social-media">
+              <Link
+                activeClass="active"
+                to="Social-media"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Social Media
+              </Link></Nav.Link>
+            
+            
+            <Nav.Link href="#list-of-concerts"><Link
+                activeClass="active"
+                to="Concerts"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Concerts
+              </Link></Nav.Link>
+            
+            <Nav.Link>
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 1
+              </Link></Nav.Link>
           </Nav>
 
           {/* Icons on the right */}
