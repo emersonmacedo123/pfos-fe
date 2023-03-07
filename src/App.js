@@ -6,6 +6,7 @@ import LorenBigText from './components/LorenBigText';
 import Section1 from './components/Section1';
 import HomeMain from './components/HomeMain';
 import Container from 'react-bootstrap/Container';
+import BandHistoryMain from './components/BandHistoryMain';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <NavbarMain />
       <Container>
         <HomeMain />
+        <BandHistoryMain />
         <LorenBigText />
         <LorenBigText />
         <LorenBigText />

@@ -37,11 +37,23 @@ const NavbarMain = () => {
               </Link>
             </Nav.Link>
             
-            
+            <Nav.Link href="#members">
+            <Link
+                activeClass="active"
+                to="members-main"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Members
+              </Link>
+            </Nav.Link>
+
             <Nav.Link href="#History">
             <Link
                 activeClass="active"
-                to="History"
+                to="band-history"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -52,18 +64,7 @@ const NavbarMain = () => {
             </Nav.Link>
             
             
-            <Nav.Link href="#members">
-            <Link
-                activeClass="active"
-                to="Members"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Members
-              </Link>
-            </Nav.Link>
+            
             
             
             <Nav.Link href="#social-media">
