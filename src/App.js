@@ -2,11 +2,12 @@
 import './App.css';
 import LogoRotating from './components/Logo';
 import NavbarMain from './components/NavbarMain';
-import LorenBigText from './components/LorenBigText';
+// import LorenBigText from './components/LorenBigText';
 import Section1 from './components/Section1';
 import HomeMain from './components/HomeMain';
 import Container from 'react-bootstrap/Container';
 import BandHistoryMain from './components/BandHistoryMain';
+import { MembersMain } from './components/MembersMain';
 
 
 function App() {
@@ -16,10 +17,8 @@ function App() {
       <NavbarMain />
       <Container>
         <HomeMain />
+        <MembersMain />
         <BandHistoryMain />
-        <LorenBigText />
-        <LorenBigText />
-        <LorenBigText />
         <Section1 />
         <LogoRotating />
       </Container>
