@@ -36,7 +36,25 @@ h4 {
     color: rgb(219, 205, 205);
 }
 
+.title {
+    font-weight: bold;
+    text-align: left;
+}
 
-/* .social-icon {
-    margin-right: 10px;
-} */
+.member-icon {
+    color: aliceblue;
+}
+
+.name-contanier {
+    display: flex;
+    align-items: center
+}
+
+.member-icon {
+    display: flex;
+    align-items: center
+}
+
+.member-icon-1icon {
+    margin-right: 5px;
+}

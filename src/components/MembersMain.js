@@ -10,7 +10,7 @@ export const MembersMain = () => {
     
   return (
     <div className='members-main'>
-        <h1>Band Members</h1>
+        <h1 className='title'>Band Members</h1>
         <br></br>
         <BandMember 
             name="Mouad"
@@ -21,21 +21,21 @@ export const MembersMain = () => {
 
         <BandMember 
             name="Ulises"
-            description={LorenSmallText} 
+            description={<LorenSmallText />} 
             photo={guitar1} 
             photoLeft={true}
         />
 
         <BandMember 
             name="Matheus"
-            description={LorenSmallText} 
+            description={<LorenSmallText />} 
             photo={bass1} 
             photoLeft={false}
         />
 
         <BandMember 
             name="Emerson"
-            description={LorenSmallText} 
+            description={<LorenSmallText />} 
             photo={drummer1} 
             photoLeft={true}
         />

@@ -12,15 +12,17 @@ const BandHistoryMain = () => {
     return (
     <div className='band-history'>
         <br />
-        <div id='history-title'>
-            <h1 style={{fontWeight:'bold', textAlign:'left'}}>Band History</h1>
+        <div id='history-container'>
+            <h1 className='title'>Band History</h1>
             <div style={myStyle}>
             <LorenBigText/>    
+            {/* eslint-disable-next-line */}
             <img src={PrimatesLogo} alt="your-image" sizes='big' />
             </div>
 
 
             <div style={myStyle}>
+            {/* eslint-disable-next-line */}
             <img src={PrimatesLogo} alt="your-image" sizes='big' />
             <LorenBigText/>
             
