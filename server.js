@@ -1,9 +1,18 @@
-const serve = require('serve');
-const port = process.env.PORT || 5000;
+const http = require('http');
+const fs = require('fs');
 
-const app = serve('./build', {
-    port: port,
-    ignore: ['node_modules']
+const server = http.createServer((req, res) => {
+    fs.readFile('./build/index.html', (err, data) => {
+        if (err) {
+            res.writeHead(500, { 'Content-Type': 'text/html' });
+            res.end('Error loading index.html');
+        } else {
+            res.writeHead(200, { 'Content-Type': 'text/html' });
+            res.end(data);
+        }
+    });
 });
 
-console.log(`Server running on port ${port}`);
+server.listen(8080, () => {
+    console.log('Server is running on port 8080');
+});
