@@ -11,7 +11,7 @@ const BandHistoryMain = () => {
     }
     return (
     <div className='band-history'>
-        <br />
+        <br></br>
         <div id='history-container'>
             <h1 className='title'>Band History</h1>
             <div style={myStyle}>

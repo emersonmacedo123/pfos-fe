@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import primates_logo_nobg from "../assets/images/primates_logo_nobg.png";
 import { FaFacebook, FaInstagram, FaYoutube, FaAsterisk, FaSpotify } from 'react-icons/fa';
-// import Linktree from '../assets/icons/linktree.svg';
 import { Link } from "react-scroll"; //animateScroll as scroll
 
 
@@ -16,13 +15,7 @@ const NavbarMain = () => {
       <Navbar bg="black" variant="dark" sticky="top">
         <Container>
           <Navbar.Brand>
-            <img
-              src={primates_logo_nobg}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="Primates Logo"
-            /></Navbar.Brand>
+            <img src={primates_logo_nobg} width="30" height="30" className="d-inline-block align-top" alt="Primates Logo"/></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link>
             <Link
