@@ -8,6 +8,7 @@ import HomeMain from './components/HomeMain';
 import Container from 'react-bootstrap/Container';
 import BandHistoryMain from './components/BandHistoryMain';
 import { MembersMain } from './components/MembersMain';
+import BigSpace from './components/BigSpace';
 
 
 function App() {
@@ -17,8 +18,10 @@ function App() {
       <NavbarMain />
       <Container>
         <HomeMain />
+          <BigSpace />
         <MembersMain />
         <BandHistoryMain />
+          <BigSpace />
         <Section1 />
         <LogoRotating />
       </Container>
