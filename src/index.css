@@ -63,7 +63,7 @@ h4 {
 .home-social-icons {
     color: aliceblue;
     display: flex;
-    align-items: end;
+    align-items: center;
     margin-left: 20px;
     font-size: xx-large;
     justify-content: center;
