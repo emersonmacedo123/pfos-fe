@@ -22,6 +22,7 @@ function App() {
           <BigSpace />
         <Section1 />
         <LogoRotating />
+        
       </Container>
 
     </div>
