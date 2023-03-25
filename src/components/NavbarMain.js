@@ -84,17 +84,6 @@ const NavbarMain = () => {
                 Concerts
               </Link></Nav.Link>
             
-            <Nav.Link>
-              <Link
-                activeClass="active"
-                to="section1"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Section 1
-              </Link></Nav.Link>
           </Nav>
 
           {/* Icons on the right */}
