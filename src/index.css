@@ -72,3 +72,8 @@ h4 {
 .home-social-icon {
     margin-right: 30px;
 }
+
+.IG-container img {
+    width: 30%;
+    margin: 2px;
+}
