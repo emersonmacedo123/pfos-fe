@@ -18,7 +18,7 @@ const InstagramTest = ({ token, limit }) => {
         async function fetchInstagramPost() {
             try {
                 axios
-                    .get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=${limit}&access_token=${token}`)
+                    .get(token+`?limit=${limit}`)
                     .then((resp) => {
                         setFeedsData(resp.data.data)
                     })
@@ -35,7 +35,7 @@ const InstagramTest = ({ token, limit }) => {
             // cancel pending fetch request on component unmount
             abortController.abort();
         };
-    }, [limit])
+    }, [token, limit])
 
 
 

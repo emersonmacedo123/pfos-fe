@@ -3,7 +3,7 @@ import InstagramTest from './InstagramTest'
 
 
 const InstagramContainer = () => {
-    const My_token = '//add the token here'
+    const My_token = 'https://v1.nocodeapi.com/dme2/instagram/pWWKQNUTJyVSxAXQ'
 
 
     return (

@@ -12,7 +12,7 @@ import InstagramContainer from './components/InstagramContainer';
 
 function App() {
 
-  const My_token = '//add the token here'
+  const My_token = 'add the token here?'
 
   return (
     <div className="App">
